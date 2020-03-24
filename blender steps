@@ -1,0 +1,33 @@
+~open Blender.
+~create a new Genral file.
+~remove the preexisting cube with key A(to select all) and then press X and hit enter to delete all.
+~press NUM1 for front view and press Shift+A and select Mesh and then select a cube.
+~Now Press  tab to enter in edit mode and then press G to move the cube(Using X,Y,Z keys to move along their respective axis).
+~press S to resize the cube.
+
+#use Vertex selection mode:
+~Using Ctrl+R cut it into to loop vertically and then select left sides 4 vertices and 4 vertices of center.
+~Press X to delete them. then delete all faces.
+~Go to Modifiers tool bar and add a Mirror modifier.
+~select lower four vertices and then move them along Z axis.
+~Press ctrl+R to loop cuts.
+~cut it into many parts.
+~then adjust the all vertices. According to human body.
+~Using Loop cuts cuts the body into parts.
+~Then extrude lower face to make a leg.
+~After completing human body then Right click on the body and select smooth option.
+~ then adjust the location of that vertices which are not correctly places.
+~then Press Shift+A and make a new cube on the neck.
+~adjust that cube.
+
+Press Tab to switch object mode.
+~Press Shift+A to make a new Nurbe surface.
+~rotate it into X=90' then place it back side of the body.
+~Adjust its size according to body.
+
+##
+~Press shift+A to make a copy of the body then place it adjacent to older body.
+color:
+~select faces which have to color and then go to material properties take a new material and then go to viewport display option to adjust the color for material then select the color   
+    and click on the assign button.
+~similarly fill the whole Body with the color.
